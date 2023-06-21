@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"],
+      "@SwiperBundleCss": ["./node_modules/swiper/swiper-bundle.min.css"],
+      "@SwiperBundle": ["./node_modules/swiper/swiper-bundle.esm.js"],
+      "@Swiper": ["./node_modules/swiper/swiper.esm.js"],
+      "@SwiperVue": ["./node_modules/swiper/vue/swiper-vue.js"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
